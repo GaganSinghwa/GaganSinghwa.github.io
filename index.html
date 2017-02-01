@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>Gagan Singh's Website</title>
+         <style>
+            body {
+                background: rgb(125, 198, 205);
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: arial;
+            }
+            header {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+            [id=all-contents] {
+                max-width: 800px;
+                margin: auto;
+            }
+
+            /* navigation menu */
+            nav {
+                background: rgb(239, 80, 41);
+                margin: 0 auto;
+                margin-bottom:20px;
+                display: flex;
+                padding: 10px;
+                border-radius: 7px;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(255, 255, 255);
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+            }
+
+            /* main container area beneath menu */
+            main {
+                background: rgb(245, 238, 219);
+                display: flex;
+                border-radius:7px;
+            }
+            [class=sidebar] {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            [class=sidebar] img {
+                width: 200px;
+            }
+            [class=content] {
+                flex: 1;
+                padding: 15px;
+            }
+            [class=interests] header {
+                font-size: 1.25em;
+            }
+        </style>
+    </head>
+    <body>
+       <div id="all-contents">
+             <nav>
+              <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="portfolio.html">Portfolio</a></li>
+              </ul>   
+             </nav> 
+             <main>
+                 <div class="Sidebar">
+                     <img src="https://s-media-cache-ak0.pinimg.com/736x/fe/ed/61/feed61096e44d725783d382c186e98ab.jpg"></img>
+                 </div>
+                 <div class="content">
+                     <header>Gagan Singh's Website</header>
+                     <p>Hello this text is about me! I am from washigtion, i graduted from east valley high school!I enjoy playing Basketball! My Favorite nba team is La Lakers 
+                     </p>
+                     <section class= "intrests">
+                      <header>intrests</header>
+                      <ul>
+                          <li>Playing Basketball</li>
+                          <li>Working with computers</li>
+                          <li>Hanging out with friends</li>
+                      </ul>
+                     </section>
+                 </div>
+             </main>
+       </div> 
+    </body>
+</html>
