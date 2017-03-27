@@ -1,7 +1,4 @@
-<!DOCTYPE HTML>
-<html>
-    <head>
-        <title>Gagan Singh's Amazing Website</title>
+    <title>Gagan Singh's Amazing Website</title>
         <style>
          body{
                 background:orange;
@@ -82,26 +79,4 @@
             }
          
         </style>
-    </head>
     
-    
-    <body>
-        <nav>
-            <header> Gagan Singh's Amazing Website</header>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="studies.html">Studies</a></li>
-              </ul>
-        </nav>
-       <main>
-           <div class="content">
-               <h1>Portfolio</h1>
-               <ul id="portfolio">
-               </ul>
-           </div>
-       </main>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-        <script id="portfolioScript">$(document).ready(function() {$.getJSON('projects/projects.json').then(function(data) { data.projects.forEach(function(project){ $('#portfolio').append('<li><a href="projects/' + project.name + '/">' + project.title + ' : ' + project.description + '</a></li>'); }); }); });</script>
-    </body>
-</html>
