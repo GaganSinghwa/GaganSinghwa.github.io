@@ -71,8 +71,8 @@ If you don't know any of these concepts, see a Teacher or TA before starting thi
 
 
 ## Step 4 - Review
- 1. [ ] What are the different ways you can access properties on objects?
- 2. [ ] What are the different ways of accessing elements on  arrays?
+ 1. [x] What are the different ways you can access properties on objects?
+ 2. [x] What are the different ways of accessing elements on  arrays?
 
 ## Step 5 - Take a Break!
 It's super important to give your brain and yourself a rest when you can! Grab a drink and have a think! For like 10 minutes, then, **BACK TO WORK!** :)
@@ -80,12 +80,12 @@ It's super important to give your brain and yourself a rest when you can! Grab a
 ## Step 6 - A Collection of Animals
 **from now on i will say inspect instead of console.log**
 
- 1. [ ] Create a variable named `animals` and assign it to an empty array.
- 2. [ ] `push` our `animal` that we created to `animals`.
- 3. [ ] inspect `animals`. What does it look like?
- 4. [ ] Create a variable called `duck` and assign it to the data:
+ 1. [x] Create a variable named `animals` and assign it to an empty array.
+ 2. [x] `push` our `animal` that we created to `animals`.
+ 3. [x] inspect `animals`. What does it look like?
+ 4. [x] Create a variable called `duck` and assign it to the data:
   - `{ species: 'duck', name: 'Jerome', noises: ['quack', 'honk', 'sneeze', 'woosh'] }`
- 5. [ ] `push` `duck` to `animals`
+ 5. [x] `push` `duck` to `animals`
  6. [ ] inspect `animals`. What does it look like?
  7. [ ] Create two more animal objects each with a species, a name, and at least two sounds sounds and add each one of them to `animals.
  8. [ ] inspect `animals`.
