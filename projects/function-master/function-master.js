@@ -85,8 +85,8 @@ var nonFriends = function (name, list) {
         var friends = list[i].friends; 
         var isFriend = false;
         if (list[i].name !== name) { //if this isn't the person we're testing for
-            for (var e=0; e < friends.length; e++) { //iterate over their friends
-                if (friends[e] === name) { //if they have the person as a friend
+            for (var j=0; j < friends.length; j++) { //iterate over their friends
+                if (friends[j] === name) { //if they have the person as a friend
                     isFriend = true; //record that they have the person as a friend
                 } 
             }
